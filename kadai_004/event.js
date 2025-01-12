@@ -4,7 +4,7 @@
     console.log('loadイベントが発生しました');
   });
 
-// 画面をスクロールしたと
+// 画面をスクロールしたとき
   $(window).on('scroll',function(){
     console.log('scrollイベントが発生しました');
   });
