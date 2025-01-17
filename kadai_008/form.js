@@ -6,7 +6,7 @@ $(function(){
    // btnがclickされたとき
   $('.btn').on("click", function() {
     // 対象要素.val() でvalue値を取得 value要素は"クリックしました！"
-    $('.text-box').val();
+    $('.text-box').val("クリックしました！");
   });
 });
 
